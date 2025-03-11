@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poetry Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="nav-box">
+    <div class="logo"><img width="100"
+        src="https://img.freepik.com/premium-vector/logo-design-with-shape-lion-head_570051-687.jpg" alt="">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="extra.html">More Poetry</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+  </div>
+
+  <div class="main_content">
+    <div class="main-text">
+      <h1>The Poetry Generator</h1>
+      <h2>lets create the poetries on your mood.</h2>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio facere eos a.
+    </div>
+    <div class="main-image">
+      <img
+        src="https://media.istockphoto.com/id/479134357/photo/fountain-pen-on-text-sheet-paper-with-rose.jpg?s=612x612&w=0&k=20&c=ARIFTrGpzKX7daxCMz-79nVPqI_0kyUYCkDfC8RLiX8="
+        alt="">
+    </div>
+  </div>
+
+  <section class="first"></section>
+
+  <div class="container">
+    <h1>Poetry Generator</h1>
+    <form id="poetryForm">
+      <label for="userInput">Enter a word or phrase:</label>
+      <input type="text" id="userInput" placeholder="e.g., Sunrise, Love, Moonlight" required>
+
+      <label for="moodSelect">Select your mood:</label>
+      <select id="moodSelect">
+        <option value="happy">Happy</option>
+        <option value="sad">Sad</option>
+        <option value="angry">Angry</option>
+        <option value="serene">Serene</option>
+      </select>
+
+      <button type="button" onclick="generatePoetry()">Generate Poetry</button>
+    </form>
+    <div id="poetryOutput" class="poetry-output"></div>
+  </div>
+
+  <section class="first"></section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- 1. Logo & About Us -->
+      <div class="footer-section about-us">
+        <img src="https://img.freepik.com/premium-vector/logo-design-with-shape-lion-head_570051-687.jpg"
+          alt="Company Logo" class="footer-logo">
+        <p class="footer-description">
+          The Best poetry generator ever.
+        </p>
+      </div>
+
+      <!-- 2. Navigation Links -->
+      <div class="footer-section nav-links">
+        <h3 class="footer-heading">Quick Links</h3>
+        <ul class="footer-nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </div>
+
+      <!-- 3. Contact Information -->
+      <div class="footer-section contact-info">
+        <h3 class="footer-heading">Contact Us</h3>
+        <p><strong>Address:</strong> 123 Main Street, City, Country</p>
+        <p><strong>Phone:</strong> (123) xxx-7890</p>
+        <p><strong>Email:</strong> <a href="#">xyz.edu.in</a></p>
+      </div>
+
+      <!-- 4. Social Media Links -->
+      <div class="footer-section social-media">
+        <h3 class="footer-heading">Follow Us</h3>
+        <a href="https://facebook.com" class="social-icon facebook" aria-label="Facebook"><i
+            class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com" class="social-icon twitter" aria-label="Twitter"><i
+            class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com" class="social-icon instagram" aria-label="Instagram"><i
+            class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com" class="social-icon linkedin" aria-label="LinkedIn"><i
+            class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
